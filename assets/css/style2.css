@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #f1f1f1;
+    font-family: Arial;
+    margin: 0;
+    color: #333;
+    background-image: url("../images/gravel.png");
+      }
+
+  
+  .main {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .row {
+    margin: 8px -16px;
+  }
+  
+  
+  .column {
+    float: left;
+    width: 25%;
+    text-align: center
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .content {
+    background-color: white;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+
+  footer {
+    padding: 20px;
+    background: #666666;
+    font-size: small;
+    color: white;
+    bottom: 0%;
+    text-align: center;
+    border-top: 4px #4aaaa5 solid;
+  }
+  header {
+    margin-bottom: 20px;
+    color: grey;
+    background: #ffffff;
+    border-color: #cccccc;
+  }
+
+  h1 {
+    display: inline-block;
+    padding: 20px 10px;
+    background-color: #4aaaa5;
+    top: 0px;
+    color: white;
+    margin: 0;
+}
+
+  #navigation {
+    list-style-type: none;
+    float: right;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+#navigation li {
+    display: inline;
+}
+.box-set {
+    position: relative;
+    background: white;
+    text-align: left;
+    padding: 25px;
+}
+h2 {
+    text-align: left;
+    color: #4aaaa5;
+    border-bottom: 3px solid grey;
+}
+
+.centered {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #4aaaa5;
+    top: -20px;
+  }
